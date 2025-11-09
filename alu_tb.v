@@ -99,7 +99,7 @@ module alu_tb();
 
 endmodule
 
-
+// incerc sa fac comit nou
 /*
 
 ADD  - Aduna valorile din A si B -> A + B
