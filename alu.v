@@ -86,7 +86,7 @@ always @(*) begin
         // ------------------- TRANSFER -------------------
         MOV: result = B;
 
-        // ------------------- CONTROL / BRANCH -------------------
+        // ------------------- CONTROL / Branch
         BRZ: result = (Z == 1) ? 16'd1 : 16'd0;
         BRN: result = (N == 1) ? 16'd1 : 16'd0;
         BRC: result = (C == 1) ? 16'd1 : 16'd0;
