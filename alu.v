@@ -98,7 +98,7 @@ always @(*) begin
         default: result = 16'b0;
     endcase
 
-    // ------------------- FLAGURI -------------------
+    // --------- FLAGURI --------------
     Z = (result == 0);
     N = result[15];
 end
