@@ -101,7 +101,7 @@ module control_unit (
                         next_state = FETCH;
                     end
 
-                    // Transfer
+                    // TRANSFER
                     6'b001101: begin // MOV
                         alu_enable = 1;
                         reg_write  = 1;
